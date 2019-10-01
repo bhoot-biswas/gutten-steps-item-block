@@ -1,0 +1,56 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-bengal-studio-steps-item {
+    position: relative;
+
+    &:last-child {
+        .wp-block-bengal-studio-steps-item__container {
+            .wp-block-bengal-studio-steps-item__tail {
+                display: none;
+            }
+        }        
+    }
+
+    &__container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+	&__icon {
+		width: 2rem;
+		height: 2rem;
+		margin-right: 1rem;
+		line-height: 2rem;
+		text-align: center;
+		border: 1px solid rgba(0,0,0,0.25);
+		border-radius: 2rem;
+		transition: background-color 0.3s, border-color 0.3s;
+	}
+
+	&__tail {
+        position: absolute;
+        top: 0;
+        left: 16px;
+        width: 1px;
+        height: 100%;
+        padding: 38px 0 6px;
+
+		&::after {
+			display: inline-block;
+			width: 1px;
+			height: 100%;
+			background: #e8e8e8;
+			border-radius: 1px;
+			transition: background 0.3s;
+			content: '';
+            background-color: #e8e8e8;
+		}
+	}
+
+    &__content {
+        flex: 1;
+    }
+}

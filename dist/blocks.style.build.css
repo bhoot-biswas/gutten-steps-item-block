@@ -1,0 +1,52 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-bengal-studio-steps-item {
+  position: relative; }
+  .wp-block-bengal-studio-steps-item:last-child .wp-block-bengal-studio-steps-item__container .wp-block-bengal-studio-steps-item__tail {
+    display: none; }
+  .wp-block-bengal-studio-steps-item__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start; }
+  .wp-block-bengal-studio-steps-item__icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s; }
+  .wp-block-bengal-studio-steps-item__tail {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 1px;
+    height: 100%;
+    padding: 38px 0 6px; }
+    .wp-block-bengal-studio-steps-item__tail::after {
+      display: inline-block;
+      width: 1px;
+      height: 100%;
+      background: #e8e8e8;
+      border-radius: 1px;
+      -webkit-transition: background 0.3s;
+      -o-transition: background 0.3s;
+      transition: background 0.3s;
+      content: '';
+      background-color: #e8e8e8; }
+  .wp-block-bengal-studio-steps-item__content {
+    -ms-flex: 1;
+        flex: 1; }

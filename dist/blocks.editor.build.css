@@ -1,0 +1,81 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.ugb-icon-control .ugb-icon-control__icon-button {
+  height: auto;
+  padding: 8px;
+  margin-right: auto; }
+  .ugb-icon-control .ugb-icon-control__icon-button svg {
+    width: 30px;
+    height: 30px; }
+
+.ugb-icon-control .ugb-icon-control__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.ugb-icon-popover__iconlist {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  margin-top: 5px;
+  height: 250px;
+  overflow: auto; }
+  .ugb-icon-popover__iconlist button {
+    background: none;
+    padding: 5px;
+    height: auto;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .ugb-icon-popover__iconlist svg {
+    width: 30px !important;
+    height: 30px;
+    margin: 0;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    border-radius: 4px; }
+  .ugb-icon-popover__iconlist .components-base-control__help {
+    font-style: italic; }
+
+.ugb-icon-popover__label-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 8px; }
+  .ugb-icon-popover__label-container .components-base-control__field {
+    margin-bottom: 0; }
+  .ugb-icon-popover__label-container .ugb-icon-popover__input {
+    -ms-flex: 1;
+        flex: 1; }
+  .ugb-icon-popover__label-container .components-range-control__reset {
+    margin-left: 8px; }
